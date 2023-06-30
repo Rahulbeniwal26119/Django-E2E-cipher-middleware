@@ -1,10 +1,7 @@
 from django.views.decorators.csrf import csrf_exempt
-from django.http.response import JsonResponse, HttpResponse
+from django.http.response import HttpResponse
 import json
 from gateway.response_helpers import http_response
-
-
-# Create your views here.
 
 
 def index(request):
